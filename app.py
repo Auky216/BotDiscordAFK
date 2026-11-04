@@ -11,7 +11,7 @@ from groq import Groq
 load_dotenv()
 
 # ===== PERSISTENCIA DE DATOS =====
-VOICE_TIME_FILE = 'voice_time_data.json'
+VOICE_TIME_FILE = os.getenv('VOICE_TIME_FILE', 'voice_time_data.json')
 
 def load_voice_time_data():
     """Carga los datos de tiempo de voz desde el archivo"""

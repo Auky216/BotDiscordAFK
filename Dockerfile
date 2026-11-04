@@ -12,7 +12,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar el código del bot
 COPY app.py .
-COPY .env .
 
 # Crear directorio para datos persistentes
 RUN mkdir -p /app/data
