@@ -1,0 +1,8 @@
+.env
+.env.*
+.git
+.venv
+__pycache__
+*.pyc
+voice_time_data.json
+data/
